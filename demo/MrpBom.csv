@@ -1,0 +1,7 @@
+ID,product_tmpl_id,product_uom_id,sequence,routing_id,type
+mrp_bom_3,product_product_19_product_template,product.product_uom_unit,10,,
+mrp_bom_manufacture,product.product_product_3_product_template,product.product_uom_unit,1,mrp_routing_0,
+mrp_bom_kit,product_product_build_kit_product_template,product.product_uom_unit,2,,phantom
+mrp_bom_desk,product_product_computer_desk_product_template,product.product_uom_unit,3,mrp_routing_3,
+mrp_bom_laptop_cust,product.product_product_27_product_template,product.product_uom_unit,1,,
+mrp_bom_laptop_cust_rout,product.product_product_27_product_template,product.product_uom_unit,2,mrp_routing_1,

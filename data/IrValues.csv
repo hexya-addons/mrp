@@ -1,0 +1,3 @@
+ID,key2,model,name,value,model_id,key
+ir_BOM_structure,,,Bill of Materials Structure,,,
+run_procurement_order_action,client_action_multi,mrp.production,Plan Orders,,mrp.model_mrp_production,action

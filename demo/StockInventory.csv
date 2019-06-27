@@ -1,0 +1,4 @@
+ID,name,filter,product_id
+stock_inventory_product_27,Inventory for laptop customized,product,product.product_product_27
+stock_inventory_product_laptop_charger,Inventory for laptop charger,product,product_product_laptop_charger
+stock_inventory_product_laptop_keypad,Inventory for laptop keypad,product,product_product_laptop_keypad

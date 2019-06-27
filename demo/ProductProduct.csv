@@ -1,0 +1,11 @@
+ID,standard_price,uom_id,uom_po_id,type,name,categ_id,image,list_price,description,default_code,tracking
+product_assembly,0.1,product.product_uom_hour,product.product_uom_hour,service,Assembly Service Cost,product.product_category_3,,,,,
+product_product_19,1100.0,product.product_uom_unit,product.product_uom_unit,consu,HDD on Demand,product.product_category_5,,1250.0,On demand hard-disk having capacity based on requirement.,HDD-DEM,
+product_product_build_kit,600.0,product.product_uom_unit,product.product_uom_unit,consu,Self Build Kit,product.product_category_5,,147.0,Self Build kit.,E-COM92,
+product_product_computer_desk,2500,product.product_uom_unit,product.product_uom_unit,product,Computer Desk,product.product_category_5,,2250,Solid wood computer desk.,FURN001,
+product_product_computer_desk_head,2000,product.product_uom_unit,product.product_uom_unit,product,Table Head,product.product_category_5,,2000,Solid wood is a durable natural material.,FURN002,
+product_product_computer_desk_leg,50,product.product_uom_unit,product.product_uom_unit,product,Table Leg,product.product_category_5,,50,18″ x 2½″ Square Leg,FURN003,
+product_product_computer_desk_bolt,12.5,product.product_uom_unit,product.product_uom_unit,product,Bolt,product.product_category_5,,12.5,Stainless steel screw full (dia - 5mm, Length - 10mm),FURN004,
+product_product_laptop_charger,2000.0,product.product_uom_unit,product.product_uom_unit,product,Laptop Charger,product.product_category_5,,2250.0,19v,5.5 x 2.5 mm Pin Type Adapter (Power Cord Included),E-COM93,lot
+product_product_laptop_keypad,800,product.product_uom_unit,product.product_uom_unit,product,Laptop Keypad,product.product_category_5,,850,New Original Laptop Keyboard Part No 9GT99,E-COM94,lot
+product.product_product_27,,,,,,,,,,,lot

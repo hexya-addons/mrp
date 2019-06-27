@@ -1,0 +1,4 @@
+ID,name,code,prefix,padding,number_next,number_increment
+sequence_mrp_prod,Production order,mrp.production,MO/,5,1,1
+sequence_mrp_route,Routing,mrp.routing,RO/,5,1,1
+sequence_mrp_unbuild,Unbuild,mrp.unbuild,UB/,5,1,1

@@ -1,0 +1,7 @@
+ID,workcenter_id,loss_id,date_start,date_end
+mrp_workcenter_efficiency_0,mrp_workcenter_0,block_reason7,,
+mrp_workcenter_efficiency_1,mrp_workcenter_0,block_reason0,,
+mrp_workcenter_efficiency_2,mrp_workcenter_0,block_reason1,,
+mrp_workcenter_efficiency_3,mrp_workcenter_1,block_reason7,,
+mrp_workcenter_efficiency_4,mrp_workcenter_1,block_reason0,,
+mrp_workcenter_efficiency_5,mrp_workcenter_1,block_reason1,,

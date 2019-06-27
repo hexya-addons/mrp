@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hexya>
+    <data>
+	<view id="mrp_message_view_form" model="MrpMessage" >
+            <form string="Inventory Message">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="product_id" required="True"/>
+                            <field name="valid_until"/>
+                        </group>
+                        <group>
+                            <field name="bom_id"/>
+                            <field name="workcenter_id"/>
+                        </group>
+                    </group>
+                    <field name="message" widget="html" editor_height="450px"/>
+                </sheet>
+            </form>
+        </view>
+	<view id="mrp_message_view_form_embedded_product" model="MrpMessage" >
+            <form string="Inventory Message">
+                <group>
+                    <group>
+                        <field name="product_tmpl_id" required="True"/>
+                        <field name="product_id" groups="product.group_product_variant" string="Variant"/>
+                    </group>
+                    <group>
+                        <field name="valid_until"/>
+                        <field name="workcenter_id"/>
+                    </group>
+                </group>
+                <field name="message" widget="html" editor_height="450px"/>
+                <footer class="oe_edit_only">
+                    <button name="save" type="object" string="Save" class="oe_highlight"/>
+                    <button string="Discard" special="cancel"/>
+                </footer>
+            </form>
+        </view>
+	<view id="mrp_message_view_form_embedded_bom" model="MrpMessage" >
+            <form string="Inventory Message">
+                <group>
+                    <group>
+                        <field name="bom_id"/>
+                        <field name="routing_id"/>
+                    </group>
+                    <group>
+                        <field name="valid_until"/>
+                        <field name="workcenter_id"/>
+                    </group>
+                </group>
+                <field name="message" widget="html" editor_height="450px"/>
+                <footer class="oe_edit_only">
+                    <button name="save" type="object" string="Save" class="oe_highlight"/>
+                    <button string="Discard" special="cancel"/>
+                </footer>
+            </form>
+        </view>
+	<view id="mrp_message_view_tree" model="MrpMessage" >
+            <tree>
+                <field name="valid_until" string="Validity Date"/>
+                <field name="create_uid" string="Author"/>
+                <field name="product_id"/>
+                <field name="name" string="Message"/>
+            </tree>
+        </view>
+	<view id="mrp_message_view_search" model="MrpMessage" >
+            <search string="Search">
+                <filter string="Active" name="active_message" domain="[('valid_until', '&gt;=', current_date)]"/>
+                <filter string="My Messages" name="my_messages" domain="[('create_uid', '=', uid)]"/>
+           </search>
+       </view>
+	<action id="mrp_message_action_main" type="ir.actions.act_window" name="Workorder Messages" model="MrpMessage" view_mode="tree,form" >
+    </data>
+</hexya>

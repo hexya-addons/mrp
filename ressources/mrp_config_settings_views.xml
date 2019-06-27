@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hexya>
+    <data>
+	<view id="view_mrp_config" model="MrpConfigSettings" >
+                <form string="Configure Manufacturing" class= "oe_form_configuration">
+                    <header>
+                        <button string="Apply" type="object" name="execute" class="oe_highlight"/>
+                        <button string="Cancel" type="object" name="cancel" class="oe_link" special="cancel"/>
+                    </header>
+                    <group string="Logistics" name="logistics">
+                        <field name="company_id" invisible="1"/>
+                        <field name="manufacturing_lead"/>
+                    </group>
+                    <group string="Manufacturing Order">
+                        <field name="group_product_variant" widget="radio"/>
+                        <field name="module_mrp_byproduct" widget="radio"/>
+                        <field name="group_mrp_routings" widget="radio"/>
+                    </group>
+                    <group string="Extra Features">
+                        <field name="module_mrp_mps" widget="upgrade_radio"/>
+                        <field name="module_mrp_plm" widget="upgrade_radio"/>
+                        <field name="module_mrp_maintenance" widget="upgrade_radio"/>
+                        <field name="module_quality_mrp" widget="upgrade_radio"/>
+                    </group>
+                </form>
+            </view>
+	<action id="action_mrp_configuration" type="ir.actions.act_window" name="Configure Manufacturing" model="MrpConfigSettings" view_mode="form" >
+    </data>
+</hexya>

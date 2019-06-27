@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hexya>
+    <data>
+	<view id="mrp_workcenter_block_wizard_form" model="MrpWorkcenterProductivity" >
+            <form string="Block Workcenter">
+                <group>
+                    <field name="loss_id" class="oe_inline" domain="[('manual','=',True)]"/>
+                    <field name="description" placeholder="Add a description..."/>
+                    <field name="workcenter_id" invisible="1"/>
+                </group>
+                <footer>
+                    <button name="button_block" string="Block" type="object" class="btn-danger"/>
+                    <button string="Cancel" class="btn-default" special="cancel" />
+                </footer>
+            </form>
+        </view>
+	<action id="act_mrp_block_workcenter" type="ir.actions.act_window" name="Block Workcenter" model="MrpWorkcenterProductivity" view_mode="form" >
+	<action id="act_mrp_block_workcenter_wo" type="ir.actions.act_window" name="Block Workcenter" model="MrpWorkcenterProductivity" view_mode="form" >
+    </data>
+</hexya>

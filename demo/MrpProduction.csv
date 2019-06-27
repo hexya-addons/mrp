@@ -1,0 +1,5 @@
+ID,product_id,product_uom_id,product_qty,bom_id,location_src_id,location_dest_id
+mrp_production_1,product.product_product_3,product.product_uom_unit,3,mrp_bom_manufacture,,
+mrp_production_2,mrp.product_product_19,product.product_uom_unit,,mrp.mrp_bom_3,,
+mrp_production_3,product_product_computer_desk,product.product_uom_unit,1,mrp_bom_desk,,
+mrp_production_laptop_cust,product.product_product_27,product.product_uom_unit,5,mrp_bom_laptop_cust,stock.stock_location_stock,stock.stock_location_stock

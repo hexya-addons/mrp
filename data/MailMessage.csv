@@ -1,0 +1,3 @@
+ID,model,res_id,message_type,subtype_id,subject,body
+module_install_notification,mail.channel,mail.channel_all_employees,notification,mail.mt_comment,MRP application installed!,<![CDATA[<p>Manage your manufacturing process with Odoo by defining your bills of materials (BoM), routings and work centers.</p><p>
+This application supports complete integration and production scheduling for stockable goods, consumables, and services.</p>]]>

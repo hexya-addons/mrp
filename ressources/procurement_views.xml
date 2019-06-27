@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hexya>
+    <data>
+	<view id="view_procurement_rule_form_stock_inherit_mrp" model="ProcurementRule" >
+                <field name="location_src_id" position="attributes">
+                    <attribute name="attrs">{'required': [('action', '=', 'move')], 'invisible': [('action', 'not in', ['move', 'manufacture'])]}</attribute>
+                </field>
+            </view>
+	<view id="view_procurement_form_inherit" model="ProcurementOrder" >
+            <data>
+                <field name="origin" position="before">
+                    <field name="bom_id" domain="[('product_id','=',product_id)]"/>
+                    <field name="production_id" attrs="{'invisible': [('production_id','=',False)]}"/>
+                </field>
+               </data>
+            </view>
+    </data>
+</hexya>

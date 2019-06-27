@@ -1,0 +1,8 @@
+ID,name,loss_type,sequence,manual
+block_reason0,Material Availability,availability,1,
+block_reason1,Equipment Failure,availability,2,
+block_reason2,Setup and Adjustments,availability,3,
+block_reason4,Reduced Speed,performance,5,
+block_reason5,Process Defect,quality,6,
+block_reason6,Reduced Yield,quality,7,
+block_reason7,Fully Productive Time,productive,0,

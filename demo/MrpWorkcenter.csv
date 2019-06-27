@@ -1,0 +1,5 @@
+ID,name,calendar_id,capacity,time_start,time_stop,time_efficiency
+mrp_workcenter_0,Assembly Station 1,resource.timesheet_group1,5,10,8,87
+mrp_workcenter_3,Cutting,resource.timesheet_group1,,,,
+mrp_workcenter_1,Drill Station 1,resource.timesheet_group1,,,,
+mrp_workcenter_2,Assemble Station 2,resource.timesheet_group1,,,,

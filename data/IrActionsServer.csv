@@ -1,0 +1,2 @@
+ID,name,model_id,state,code
+production_order_server_action,Plan Orders,mrp.model_mrp_production,code,records.button_plan()

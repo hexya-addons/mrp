@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hexya>
+    <data>
+	<view id="stock_scrap_view_form2_mrp_inherit_mrp" model="StockScrap" >
+            <field name="owner_id" position="after">
+                <field name="workorder_id" attrs="{'invisible': [('workorder_id', '=', False)]}"/>
+                <field name="production_id" attrs="{'invisible': [('production_id', '=', False)]}"/>
+            </field>
+        </view>
+	<view id="stock_scrap_view_form_mrp_inherit_mrp" model="StockScrap" >
+            <field name="owner_id" position="after">
+                <field name="workorder_id" attrs="{'invisible': [('workorder_id', '=', False)]}"/>
+                <field name="production_id" attrs="{'invisible': [('production_id', '=', False)]}"/>
+            </field>
+        </view>
+    </data>
+</hexya>
